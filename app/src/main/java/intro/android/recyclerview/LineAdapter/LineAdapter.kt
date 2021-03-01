@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import intro.android.recyclerview.R
 import intro.android.recyclerview.dataclasses.Place
 import intro.android.recyclerview.LineAdapter.LineViewHolder
+import kotlinx.android.synthetic.main.recyclerline.*
+import kotlinx.android.synthetic.main.recyclerline.view.*
 
 class LineAdapter (val list: ArrayList<Place>):RecyclerView.Adapter<LineViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LineViewHolder {
